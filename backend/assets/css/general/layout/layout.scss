@@ -591,15 +591,15 @@
         }
 
         .main_menu_content {
-            margin-top: 20px;
             direction: rtl;
             text-align: right;
-
-            margin-top: 60px;
+            margin-top: 80px;
 
             ul {
                 list-style-type: none;
                 padding-inline-start: 0px;
+                overflow: auto;
+               
 
                 span {
                     color: $white;
@@ -609,12 +609,16 @@
                     display: block;
                 }
 
-                li {
+                .main_li_sidebar {
 
                     &:hover {
                         background: rgba(90, 141, 238, 0.15);
 
-                        a {
+                        .link_li {
+                            color: #5A8DEE !important;
+                        }
+
+                        button{
                             color: #5A8DEE !important;
                         }
                     }

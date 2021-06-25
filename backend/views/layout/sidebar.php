@@ -8,40 +8,40 @@
     </div>
     <div class="main_menu_content">
         <ul>
-            <li class="active">
-                <a href="#">
+            <li class="active main_li_sidebar">
+                <a href="#" class="link_li">
                     <i class="fad fa-layer-group"></i>
                     داشبورد
                 </a>
             </li>
             <span>برنامه ها</span>
-            <li class="">
-                <a href="#">
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
                     <i class="fad fa-comment-alt-smile"></i>
                     گفتگو
                 </a>
             </li>
-            <li class="">
-                <a href="#">
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
                     <i class="fad fa-envelope-open-text"></i>
                     ایمیل
                 </a>
             </li>
-            <li class="">
-                <a href="#">
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
                     <i class="fad fa-tasks"></i>
                     وظایف
                 </a>
             </li>
-            <li class="">
+            <li class="main_li_sidebar">
 
-                <a href="#">
+                <a href="#" class="link_li">
                     <i class="fad fa-folders"></i>
                     مدیریت فایل ها
                 </a>
             </li>
             <span> محتوا</span>
-            <li class="">
+            <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-bags-shopping"></i>
                     محصولات
@@ -49,7 +49,7 @@
                 </button>
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="#" >
                             <i class="fad fa-caret-left"></i>
                             افزودن محصول
                         </a>
@@ -74,7 +74,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="">
+            <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-newspaper"></i>
                     مقالات
