@@ -1,0 +1,150 @@
+@import '../../../css/partials/variable';
+
+
+@media only screen and (max-width: 1200px) {
+
+    .main .box_authentication {
+        width: 900px;
+
+        .form_ba {
+
+            form {
+                p {
+                    margin-bottom: 0;
+                }
+
+                .form-control {
+                    height: 35px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .main .box_authentication {
+        width: 800px;
+
+        .form_ba {
+
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            form {
+
+                .form-control {
+                    height: 30px;
+                }
+                p {
+                    margin-bottom: 20px;
+                }
+
+                .forggoting_pass{
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .main {
+        height: auto;
+        .box_authentication {
+            flex-direction: column;
+            width: 600px;
+            padding: 20px 30px;
+            margin: 50px 0px;
+            
+            .img_ba  {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+    
+              .form_ba{
+                width: 100%;
+                form {
+    
+                    .forggoting_pass{
+                        float: left;
+                    }
+
+                    .mbr_btn{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+    
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main .box_authentication {
+        width: 400px;
+
+        .form_ba{
+
+            h1{
+                font-size: 1.2rem;
+            }
+        
+            form {
+                font-size: .8rem;
+                .btn{
+                    font-size: 0.9rem;
+                }
+              
+
+                .forggoting_pass{
+                    float: right;
+                }
+            }
+        }
+    }
+
+    .label-cbx .checkbox{
+        top:-2px;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 500px) {
+    .main .box_authentication {
+        width: 90%;
+
+        .form_ba{
+
+            h1{
+                font-size: 1.1rem;
+            }
+            form {
+               
+                font-size: .7rem;
+                 
+                .btn{
+                    font-size: 0.8rem;
+                }
+                .forggoting_pass{
+                    width: 100%;
+                }
+            }
+        }
+
+     
+    }
+}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 380px) {
+    .main{
+        height: max-content;
+    }
+}

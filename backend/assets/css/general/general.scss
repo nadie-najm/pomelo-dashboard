@@ -1,0 +1,81 @@
+@import '../../css/partials/variable';
+
+@font-face {
+  font-family: $nf;
+  src: url("../../font/Vazir.eot"),
+    url("../../font/Vazir.ttf"),
+    url("../../font/Vazir.woff"),
+    url("../../font/Vazir.woff2");
+}
+
+@font-face {
+  font-family: $mf;
+  src: url("../../font/Vazir-Medium.eot"),
+    url("../../font/Vazir-Medium.ttf"),
+    url("../../font/Vazir-Medium.woff"),
+    url("../../font/Vazir-Medium.woff2");
+}
+
+@font-face {
+  font-family: $bf;
+  src: url("../../font/Vazir-Bold.eot"),
+    url("../../font/Vazir-Bold.ttf"),
+    url("../../font/Vazir-Bold.woff"),
+    url("../../font/Vazir-Bold.woff2");
+}
+
+@font-face {
+  font-family: $lf;
+  src: url("../../font/Vazir-Light.eot"),
+    url("../../font/Vazir-Light.ttf"),
+    url("../../font/Vazir-Light.woff"),
+    url("../../font/Vazir-Light.woff2");
+}
+
+@font-face {
+  font-family: $tf;
+  src: url("../../font/Vazir-Thin.eot"),
+    url("../../font/Vazir-Thin.ttf"),
+    url("../../font/Vazir-Thin.woff"),
+    url("../../font/Vazir-Thin.woff2");
+}
+
+//main general css
+
+body {
+  overflow-x: hidden;
+  font-family: $nf;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+//scrollbar
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(90,141,238,0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(94, 144, 241);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(132, 144, 196);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

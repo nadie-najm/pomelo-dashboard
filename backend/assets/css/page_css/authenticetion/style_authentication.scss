@@ -1,0 +1,128 @@
+@import '../../../css/partials/mixin', '../../../css/partials/variable', '../../partials/checkbox';
+
+
+.main {
+    width: 100%;
+
+    background: url("../../../img/bg_AP.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .box_authentication {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+
+        background-color: $white;
+        box-shadow: $shadow;
+        border-radius: $border_m;
+        padding: 40px 30px;
+
+        .img_ba {
+            width: 50%;
+        }
+
+        .form_ba {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+
+            h1 {
+                font-size: 1.5rem;
+                color: $text_c;
+                text-align: center;
+            }
+
+            .btn_box {
+                width: 100%;
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                .btn_ba {
+
+                    width: 100px;
+                    border-radius: $border_m;
+                    border:1px solid $l_b;
+                    
+                    height: 35px;
+                    line-height: 32px;
+                    text-align: center;
+                    margin-top: 20px;
+
+                    &:first-child {
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+
+
+            form {
+                width: 85%;
+                direction: rtl;
+                text-align: right;
+                font-size: .9rem;
+
+                input{
+                    &:focus{
+                        box-shadow: none;
+                        border-color: $l_b;
+                    }
+                }
+                
+                small{
+                    text-align: center;
+                    display: block;
+                    color: $smal_text;
+                    margin-bottom: 20px;
+                }
+
+                .form-check {
+                    display: inline-block;
+
+                    .form-check-label {
+                        margin-right: 20px;
+
+                    }
+                }
+
+
+
+                .btn {
+                    background-color: $l_b;
+                    color: $white;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+
+                p {
+                    color: $smal_text;
+                    text-align: center;
+                   
+                }
+
+                .forggoting_pass {
+                    float: left;
+                }
+
+
+
+            }
+        }
+    }
+
+
+}
+
+@import 'responsive';
