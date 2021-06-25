@@ -614,6 +614,10 @@
                     &:hover {
                         background: rgba(90, 141, 238, 0.15);
 
+                        ul{
+                            background: $main_c; 
+                        }
+
                         .link_li {
                             color: #5A8DEE !important;
                         }
