@@ -1,4 +1,3 @@
-
 //navbar
 
 //search box
@@ -45,7 +44,7 @@ $(document).click(function (event) {
 //modal
 
 $('#sign_out').click(function () {
-    $('.modal_box').css("display", "flex").hide().fadeIn();   
+    $('.modal_box').css("display", "flex").hide().fadeIn();
 });
 
 //end modal
@@ -54,22 +53,22 @@ $('#sign_out').click(function () {
 
 // O&C submenu
 
-for(let j = 0 ; j < $('.btn_main_menu').length ; j++){
+for (let j = 0; j < $('.btn_main_menu').length; j++) {
 
-    $('.btn_main_menu').eq(j).click(function(){
+    $('.btn_main_menu').eq(j).click(function () {
 
-        if($(this).next().css('display') === 'none'){
+        if ($(this).next().css('display') === 'none') {
 
             $('.btn_main_menu').next().slideUp();
-            $('.icon').attr('class' , 'fad fa-chevron-left icon');
+            $('.icon').attr('class', 'fad fa-chevron-left icon');
             $(this).next().slideDown();
-            $('.icon').eq(j).attr('class' , 'fad fa-chevron-down icon');
-            
+            $('.icon').eq(j).attr('class', 'fad fa-chevron-down icon');
 
-        }else {
+
+        } else {
 
             $(this).next().slideUp();
-            $('.icon').eq(j).attr('class' , 'fad fa-chevron-left icon');
+            $('.icon').eq(j).attr('class', 'fad fa-chevron-left icon');
         }
 
     });
@@ -79,10 +78,17 @@ for(let j = 0 ; j < $('.btn_main_menu').length ; j++){
 
 //responsive
 
-    $('.icon_toggle_menu_sb').click(function(){
-      $('.sidebar').toggleClass('active_menu');
-      $('. fa-chevron-double-right').addClass('far fa-chevron-double-left icon_toggle_menu_sb');
-    })
+$('.icon_toggle_menu_sb').click(function () {
+    $('.sidebar').toggleClass('active_menu');
+    if ($(this).hasClass('fa-chevron-double-right')) {
+        $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-right');
+        $('.icon_toggle_menu_sb').addClass('fa-chevron-double-left');
+    } else {
+        $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-left');
+        $('.icon_toggle_menu_sb').addClass('fa-chevron-double-right');
+    }
+
+})
 
 
 //end sidebar
