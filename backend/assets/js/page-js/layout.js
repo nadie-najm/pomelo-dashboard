@@ -76,4 +76,13 @@ for(let j = 0 ; j < $('.btn_main_menu').length ; j++){
 
 }
 
+
+//responsive
+
+    $('.icon_toggle_menu_sb').click(function(){
+      $('.sidebar').toggleClass('active_menu');
+      $('. fa-chevron-double-right').addClass('far fa-chevron-double-left icon_toggle_menu_sb');
+    })
+
+
 //end sidebar

@@ -12,7 +12,7 @@
     <div class="user_box">
         <ul>
             <li>
-                <a href="#">
+                <a href="../users/user-profile.php">
                     <i class="fal fa-user"></i>
                     ویرایش پروفایل
                 </a>

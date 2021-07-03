@@ -4,72 +4,72 @@
         <a href="../dashbord/dashbord.php">
             <img src="../../assets/img/logo.png" alt="پوملو" title="پوملو" class="logo_sb">
         </a>
-        <i class="far fa-chevron-double-right"></i>
+        <i class="far fa-chevron-double-right icon_toggle_menu_sb"></i>
     </div>
     <div class="main_menu_content">
         <ul>
             <li class="active main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-layer-group"></i>
-                    داشبورد
+                    <p>داشبورد</p>
                 </a>
             </li>
             <span>برنامه ها</span>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-comment-alt-smile"></i>
-                    گفتگو
+                    <p>گفتگو</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-envelope-open-text"></i>
-                    ایمیل
+                    <p>ایمیل</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-tasks"></i>
-                    وظایف
+                    <p>وظایف</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
 
                 <a href="#" class="link_li">
                     <i class="fad fa-folders"></i>
-                    مدیریت فایل ها
+                    <p>مدیریت فایل ها</p>
                 </a>
             </li>
             <span> محتوا</span>
             <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-bags-shopping"></i>
-                    محصولات
+                    <p> محصولات</p>
                     <i class="fad fa-chevron-down icon"></i>
                 </button>
-                <ul>
-                    <li>
-                        <a href="#" >
+                <ul class="submenu">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            افزودن محصول
+                            <p>افزودن محصول</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            لیست محصول
+                            <p>لیست محصول</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            دسته محصولات
+                            <p>دسته محصولات</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            کد تخفیف
+                            <p> کد تخفیف</p>
                         </a>
                     </li>
                 </ul>
@@ -77,31 +77,52 @@
             <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-newspaper"></i>
-                    مقالات
+                    <p>مقالات</p>
                     <i class="fad fa-chevron-down icon"></i>
                 </button>
-                <ul>
-                    <li>
-                        <a href="#">
+                <ul class="submenu">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            افزودن مقاله
+                            <p>افزودن مقاله</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            لیست مقاله
+                            <p>لیست مقاله</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="submenu_li">
+                        <a href="#" class="submenu_a">
                             <i class="fad fa-caret-left"></i>
-                            دسته مقالات
+                            <p>دسته مقالات</p>
                         </a>
                     </li>
                 </ul>
             </li>
             <span>رابط کاربری</span>
+
+            <span> سایر</span>
+
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
+                    <i class="fad fa-star-exclamation"></i>
+                    <p>پایگاه دانش</p>
+                </a>
+            </li>
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
+                    <i class="fad fa-cogs"></i>
+                   <p> تنظیمات</p>
+                </a>
+            </li>
+            <li class="main_li_sidebar">
+                <a href="#" class="link_li">
+                    <i class="fad fa-address-card"></i>
+                    <p>درباره راش تیم</p>
+                </a>
+            </li>
         </ul>
     </div>
 

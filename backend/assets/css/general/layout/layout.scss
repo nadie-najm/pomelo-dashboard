@@ -65,13 +65,13 @@
 
 
     .ncb {
-        width: 83%;
+        width: 100%;
 
 
 
         //navbar
         .navbar {
-            width: 83%;
+            width: 100%;
             height: 60px;
             box-shadow: 0px 3px 6px -3px #00000073;
             justify-content: flex-start;
@@ -550,7 +550,7 @@
 
     //sidebar
     .sidebar {
-        min-width: 17%;
+        width: 250px;
         height: 100vh;
         background-color: $main_c;
         color: $smal_text;
@@ -559,10 +559,11 @@
         overflow: auto;
         top: 0;
         direction: rtl;
+        z-index: 1000;
 
         .header {
             text-align: right;
-            width: 17%;
+            width: 250px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -599,7 +600,7 @@
                 list-style-type: none;
                 padding-inline-start: 0px;
                 overflow: auto;
-               
+
 
                 span {
                     color: $white;
@@ -614,15 +615,15 @@
                     &:hover {
                         background: rgba(90, 141, 238, 0.15);
 
-                        ul{
-                            background: $main_c; 
+                        ul {
+                            background: $main_c;
                         }
 
                         .link_li {
                             color: #5A8DEE !important;
                         }
 
-                        button{
+                        button {
                             color: #5A8DEE !important;
                         }
                     }
@@ -631,13 +632,17 @@
                         color: $smal_text;
                         font-size: .9rem;
                         width: 100%;
-                        display: block;
+                        display: flex;
                         padding: 10px 20px;
 
                         i {
                             color: rgba(139, 175, 243, 0.68);
                             margin-left: 10px;
                             font-size: 1.1rem;
+                        }
+
+                        P {
+                            margin-bottom: 0;
                         }
                     }
 
@@ -646,6 +651,12 @@
                         padding-right: 20px;
                         width: 100%;
                         text-align: right;
+
+                        p {
+                            margin-bottom: 0;
+                            display: inline-block;
+                        }
+
                         &:focus {
                             box-shadow: none;
                         }
@@ -665,10 +676,18 @@
                         }
                     }
 
-                    ul {
+                    .submenu {
+
                         padding-right: 20px;
                         display: none;
-                       
+
+                        .submenu_li {
+                            &:hover {
+                                .submenu_a {
+                                    color: #5A8DEE !important;
+                                }
+                            }
+                        }
 
                     }
                 }
@@ -688,6 +707,46 @@
     }
 
     //end sidebar
+
+
+    //responsive
+
+    .active_menu {
+        width: 60px !important;
+        overflow: hidden !important;
+
+        .header {
+            width: 60px !important;
+
+            .logo_sb {
+                display: none;
+            }
+        }
+
+        .main_menu_content {
+
+            ul {
+
+                span {
+                    display: none !important;
+                }
+
+                .main_li_sidebar {
+                    p {
+                        display: none;
+                    }
+
+                    .btn_main_menu {
+
+                        p,
+                        .icon {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 //modal

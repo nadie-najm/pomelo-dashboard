@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>داشبورد</title>
+    <title>پروفایل کاربر</title>
 
     <!-- favicon -->
     <link rel="icon" href="../../assets/img/logo.png" type="image" sizes="30x5">
@@ -28,7 +28,7 @@
             <?php require_once '../layout/navbar.php'?>
 
             <main class="main_content">
-            
+
             </main>
 
         </div>
