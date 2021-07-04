@@ -28,7 +28,7 @@
             <?php require_once '../layout/navbar.php'?>
 
             <main class="main_content">
-            
+                
             </main>
 
         </div>

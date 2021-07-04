@@ -80,6 +80,7 @@ for (let j = 0; j < $('.btn_main_menu').length; j++) {
 
 $('.icon_toggle_menu_sb').click(function () {
     $('.sidebar').toggleClass('active_menu');
+    $('.search_box').toggleClass('pr');
     if ($(this).hasClass('fa-chevron-double-right')) {
         $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-right');
         $('.icon_toggle_menu_sb').addClass('fa-chevron-double-left');
@@ -87,7 +88,6 @@ $('.icon_toggle_menu_sb').click(function () {
         $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-left');
         $('.icon_toggle_menu_sb').addClass('fa-chevron-double-right');
     }
-
 })
 
 

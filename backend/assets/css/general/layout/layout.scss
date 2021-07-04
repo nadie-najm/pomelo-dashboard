@@ -498,6 +498,7 @@
             .search_box {
                 display: none;
                 width: 100%;
+                padding-right: 250px;
                 box-shadow: 0px 3px 6px -3px #00000073;
                 position: absolute;
                 left: 0;
@@ -713,7 +714,7 @@
 
     .active_menu {
         width: 60px !important;
-        overflow: hidden !important;
+        overflow: unset !important;
 
         .header {
             width: 60px !important;
@@ -726,21 +727,95 @@
         .main_menu_content {
 
             ul {
+                overflow: unset !important;
 
                 span {
                     display: none !important;
                 }
 
                 .main_li_sidebar {
+                    position: relative;
+
+                    .link_li {
+                        display: flex;
+                        justify-content: center;
+
+                        i {
+                            margin-left: 0px;
+                        }
+                    }
+
                     p {
                         display: none;
                     }
 
                     .btn_main_menu {
+                        display: flex;
+                        justify-content: center;
+                        padding: 10px 20px;
+
+                        i {
+                            margin-left: 0px;
+                        }
 
                         p,
                         .icon {
                             display: none !important;
+                        }
+                    }
+
+                    &:hover {
+                        .main_p_li {
+                            display: block !important;
+                            position: absolute;
+                            background-color: $main_c;
+                            right: 57px;
+                            padding: 8px 20px;
+                            width: 160px;
+                            border-radius: 5px 0px 0px 5px;
+                            text-align: center;
+                            top: 0;
+                            border-right: 3px solid $l_b;
+                        }
+
+                        .btn_main_menu {
+                            p {
+                                display: none !important;
+                            }
+                        }
+
+                        .submenu {
+                            display: block !important;
+                            position: absolute;
+                            right: 57px;
+                            padding-inline-start: 0px !important;
+                            border-radius: 5px 0px 0px 5px;
+                            top: 0;
+                            border-right: 3px solid $l_b;
+
+                            .submenu_li {
+                                .submenu_a {
+                                    padding: 0px 20px;
+                                    i {
+                                        padding: 10px 0px;
+                                    }
+
+                                    p {
+                                        display: block;
+                                        width: 100px;
+                                        padding: 10px 0px;
+                                        color: $l_b;
+                                    }
+                                }
+
+                                &:hover{
+                                    .submenu_a{
+                                        p{
+                                            color: $smal_text;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -749,6 +824,9 @@
     }
 }
 
+.pr{
+    padding-right: 60px !important;
+}
 //modal
 
 .modal_box {

@@ -11,40 +11,40 @@
             <li class="active main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-layer-group"></i>
-                    <p>داشبورد</p>
+                    <p class="main_p_li">داشبورد</p>
                 </a>
             </li>
             <span>برنامه ها</span>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-comment-alt-smile"></i>
-                    <p>گفتگو</p>
+                    <p class="main_p_li">گفتگو</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-envelope-open-text"></i>
-                    <p>ایمیل</p>
+                    <p class="main_p_li">ایمیل</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-tasks"></i>
-                    <p>وظایف</p>
+                    <p class="main_p_li">وظایف</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
 
                 <a href="#" class="link_li">
                     <i class="fad fa-folders"></i>
-                    <p>مدیریت فایل ها</p>
+                    <p class="main_p_li">مدیریت فایل ها</p>
                 </a>
             </li>
             <span> محتوا</span>
             <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-bags-shopping"></i>
-                    <p> محصولات</p>
+                    <p class="main_p_li"> محصولات</p>
                     <i class="fad fa-chevron-down icon"></i>
                 </button>
                 <ul class="submenu">
@@ -77,7 +77,7 @@
             <li class="main_li_sidebar">
                 <button type="button" class="btn btn_main_menu">
                     <i class="fad fa-newspaper"></i>
-                    <p>مقالات</p>
+                    <p class="main_p_li">مقالات</p>
                     <i class="fad fa-chevron-down icon"></i>
                 </button>
                 <ul class="submenu">
@@ -108,19 +108,19 @@
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-star-exclamation"></i>
-                    <p>پایگاه دانش</p>
+                    <p class="main_p_li">پایگاه دانش</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-cogs"></i>
-                   <p> تنظیمات</p>
+                   <p class="main_p_li"> تنظیمات</p>
                 </a>
             </li>
             <li class="main_li_sidebar">
                 <a href="#" class="link_li">
                     <i class="fad fa-address-card"></i>
-                    <p>درباره راش تیم</p>
+                    <p class="main_p_li">درباره راش تیم</p>
                 </a>
             </li>
         </ul>
