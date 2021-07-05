@@ -543,11 +543,63 @@
 
         .main_content {
             margin-top: 60px;
+            padding-right: 250px;
+            display: flex;
+            justify-content: center;
+            direction: rtl;
+
+
+            //fix icon
+
+            .fix_icon{
+                display: flex;
+                direction: rtl;
+                flex-wrap: wrap;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                margin: 20px;
+                z-index: 1000;
+
+                .fic{
+                    padding: 7px 15px;
+                    border-radius: 3px;
+                    margin-right: 10px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .contact_us{
+                    background-color: $l_red;
+                }
+
+                .online_chat , .back_to_top{
+                    background-color: $l-b;  
+                }
+
+                .back_to_top{
+                    visibility: hidden ;
+                    opacity: 0;
+                    transition: background-color .3s, 
+                    opacity .5s, visibility .5s;
+                }
+
+            }
+
+            //end fix icon
 
         }
 
         //end navbar
     }
+
+    //back to top
+    .show_btn_btt{
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    //end back to top
 
     //sidebar
     .sidebar {
@@ -707,12 +759,9 @@
         }
     }
 
-    //end sidebar
+    //responsive sidebar
 
-
-    //responsive
-
-    .active_menu {
+      .active_menu {
         width: 60px !important;
         overflow: unset !important;
 
@@ -822,11 +871,16 @@
             }
         }
     }
+
+    .pr{
+        padding-right: 60px !important;
+    }
+
+    //end responsive sidebar
+
+    //end sidebar  
 }
 
-.pr{
-    padding-right: 60px !important;
-}
 //modal
 
 .modal_box {
@@ -894,3 +948,5 @@
         }
     }
 }
+
+//end modal

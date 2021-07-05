@@ -1,0 +1,71 @@
+@import '../../../css/partials/mixin', '../../../css/partials/variable';
+
+.header_of_pu{
+    width: 90%;
+    box-shadow: $box_shadow;
+    height: 310px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    
+    .cover_of_pu{
+        background-image: url('../../../img/PU1.jpg');
+        width: 100%;
+        height:200px ;
+        border-radius: 10px 10px 0px 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .img_of_pu{
+            width: 140px;
+            height: 140px;
+            border-radius: 7px;
+            position: absolute;
+            right: 20px;
+            bottom: 35px;
+        }
+
+        .txtb{
+            width: max-content;
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 180px;
+             bottom: 100px;
+            color: white;
+            h1{
+                font-size: 1.2rem;
+                font-family: $bf;
+            }
+        }
+
+    }
+
+    .topic_btn{
+        width: max-content;
+        right: 180px;
+        bottom: 35px;
+        position: absolute;
+
+        .btn_pu{
+            background: #F2F4F4;
+            color: $smal_text;
+            padding: 7px 20px;
+            margin-left: 10px;
+
+            &:hover{
+                background-color: $l_b;
+                color: white;
+            }
+        }
+
+        .active{
+            background-color: $l_b;
+            color: white;
+        }
+    }
+
+  
+}

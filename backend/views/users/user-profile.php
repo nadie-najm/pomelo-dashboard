@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../../assets/css/general/fontawsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general.css">
     <link rel="stylesheet" href="../../assets/css/general/layout/layout.css">
+    <link rel="stylesheet" href="../../assets/css/page_css/users/user-profile.css">
 
 </head>
 
@@ -28,7 +29,36 @@
             <?php require_once '../layout/navbar.php'?>
 
             <main class="main_content">
+                <?php require_once '../layout/fixedicon.php'?>
 
+                <section class="header_of_pu">
+                    <div class="cover_of_pu">
+                        <img class="img_of_pu" alt="" title="" src="../../assets/img/PU2.jpg">
+                        <div class="txtb">
+                            <h1>نادیه نجم آبادی</h1>
+                            <p>مدیر اصلی</p>
+                        </div>
+                    </div>
+
+                    <div class="topic_btn">
+                        <button class="btn btn_pu active">
+                            پروفایل
+                        </button>
+                        <button class="btn btn_pu">
+                            وظایف
+                        </button>
+                        <button class="btn btn_pu">
+                            فعالیت ها
+                        </button>
+                        <button class="btn btn_pu">
+                            گفتگو ها
+                        </button>
+                        <button class="btn btn_pu">
+                            ایمیل ها
+                        </button>
+
+                    </div>
+                </section>
             </main>
 
         </div>

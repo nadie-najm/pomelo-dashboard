@@ -80,7 +80,7 @@ for (let j = 0; j < $('.btn_main_menu').length; j++) {
 
 $('.icon_toggle_menu_sb').click(function () {
     $('.sidebar').toggleClass('active_menu');
-    $('.search_box').toggleClass('pr');
+    $('.search_box , .main_content').toggleClass('pr');
     if ($(this).hasClass('fa-chevron-double-right')) {
         $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-right');
         $('.icon_toggle_menu_sb').addClass('fa-chevron-double-left');
@@ -92,3 +92,21 @@ $('.icon_toggle_menu_sb').click(function () {
 
 
 //end sidebar
+
+
+//btn back to top
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      $('.back_to_top').addClass('show_btn_btt');
+    } else {
+        $('.back_to_top').removeClass('show_btn_btt');
+    }
+  });
+  
+  $('.back_to_top').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  
+  
