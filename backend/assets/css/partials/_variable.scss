@@ -2,8 +2,10 @@
 $white: white;
 $black: #171717;
 $smal_text: #8494A7;
+$smal_text2: #69717a;
 $main_c: #1A233A;
 $l_b:#5E90F1;
+$s_l_b: #E2ECFF;;
 $l_green : #39DA8A;
 $l_red : #fc5151;
 $text_c:#475F7B;
@@ -38,3 +40,13 @@ $box_shadow :8px 12px 18px 0 rgb(25 42 70 / 13%);
 //border_radius
 $border_m:7px;
 $border_c:50%;
+
+%card_style{
+    width: 90%;
+    box-shadow: $box_shadow;
+    margin: 30px 0px;
+    border-radius: 10px;
+    height: max-content;
+    direction: rtl;
+    text-align: right;
+}

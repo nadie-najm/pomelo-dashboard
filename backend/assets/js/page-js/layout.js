@@ -1,7 +1,5 @@
 //navbar
 
-//search box
-
 $('.search').click(function () {
     $('.search_box').fadeIn();
     if ($('.search_box').css("dispaly", "block")) {
@@ -11,9 +9,7 @@ $('.search').click(function () {
 
 $('.btn_close').click(function () {
     $('.search_box').fadeOut();
-});
-
-//user box      
+});     
 
 $('.user').click(function () {
     $('.user_box').fadeToggle();
@@ -21,8 +17,6 @@ $('.user').click(function () {
         $(".search_box,.notification_box").fadeOut();
     }
 });
-
-//notification box
 
 $('.notification').click(function () {
     $('.notification_box').fadeToggle();
@@ -41,17 +35,12 @@ $(document).click(function (event) {
 
 //end navbar
 
-//modal
-
-$('#sign_out').click(function () {
+$('#sign_out_modal').click(function () {
     $('.modal_box').css("display", "flex").hide().fadeIn();
 });
 
-//end modal
 
 //sidebar
-
-// O&C submenu
 
 for (let j = 0; j < $('.btn_main_menu').length; j++) {
 
@@ -75,8 +64,7 @@ for (let j = 0; j < $('.btn_main_menu').length; j++) {
 
 }
 
-
-//responsive
+//responsive sidebar
 
 $('.icon_toggle_menu_sb').click(function () {
     $('.sidebar').toggleClass('active_menu');
@@ -90,6 +78,33 @@ $('.icon_toggle_menu_sb').click(function () {
     }
 })
 
+$(window).resize(function() {
+    //do something
+
+    var width = $(document).width();
+    if (width < 992) {
+        $('.sidebar').addClass('active_menu');
+        $('.search_box , .main_content').addClass('pr');
+        if ($(this).hasClass('fa-chevron-double-right')) {
+            $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-right');
+            $('.icon_toggle_menu_sb').addClass('fa-chevron-double-left');
+        } else {
+            $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-left');
+            $('.icon_toggle_menu_sb').addClass('fa-chevron-double-right');
+        }
+    }
+    else{
+        $('.sidebar').removeClass('active_menu');
+        $('.search_box , .main_content').removeClass('pr');
+        if ($(this).hasClass('fa-chevron-double-right')) {
+            $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-right');
+            $('.icon_toggle_menu_sb').addClass('fa-chevron-double-left');
+        } else {
+            $('.icon_toggle_menu_sb').removeClass('fa-chevron-double-left');
+            $('.icon_toggle_menu_sb').addClass('fa-chevron-double-right');
+        }
+    }
+});
 
 //end sidebar
 

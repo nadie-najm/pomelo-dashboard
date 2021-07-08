@@ -1,12 +1,11 @@
 @import '../../../css/partials/mixin', '../../../css/partials/variable';
 
+
+
 .header_of_pu{
-    width: 90%;
-    box-shadow: $box_shadow;
-    height: 310px;
-    margin-top: 30px;
-    border-radius: 10px;
+    @extend %card_style;
     position: relative;
+    padding-bottom: 110px;
     
     .cover_of_pu{
         background-image: url('../../../img/PU1.jpg');
@@ -51,7 +50,7 @@
 
         .btn_pu{
             background: #F2F4F4;
-            color: $smal_text;
+            color: $smal_text2;
             padding: 7px 20px;
             margin-left: 10px;
 
@@ -68,4 +67,64 @@
     }
 
   
+}
+
+
+.short_exp_pu_box{
+    @extend %card_style;
+    padding: 20px;
+    display: flex;
+
+    .img_of_pu{
+        width: 120px;
+        height: 120px;
+        border-radius: 7px;
+    
+    }
+
+    .details_of_exp{
+        margin-right: 40px;
+
+        h2{
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            color: $smal_text2;
+        }
+    }
+}
+
+.compelete_exp_pu{
+    @extend %card_style;
+    padding: 20px;
+    margin-bottom: 80px;
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    hr{
+        margin-bottom: 40px;
+    }
+
+    .details_box{
+        display: flex;
+        color: $smal_text2;
+
+        i{
+            margin-left: 20px;
+        }
+    }
+
+    .btn_edit{
+        background-color: $s_l_b;
+        color: $l_b;
+        float: left;
+        i{
+            margin-left: 10px;
+        }
+    }
+
 }

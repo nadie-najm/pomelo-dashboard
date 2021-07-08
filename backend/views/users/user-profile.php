@@ -59,8 +59,62 @@
 
                     </div>
                 </section>
-            </main>
+                <section class="short_exp_pu_box">
+                    <img class="img_of_pu" alt="" title="" src="../../assets/img/PU2.jpg">
+                    <div class="details_of_exp">
+                        <h2>nadie_najm</h2>
+                        <p>نادیه نجم آبادی</p>
+                        <p>nadi.codes@gmail.com</p>
+                        <p>مدیر اصلی</p>
+                        <p>122 مقاله</p>
+                        <p>220 محصول</p>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون</p>
 
+                    </div>
+                </section>
+
+                <section class="compelete_exp_pu">
+                    <h2>اطلاعات کامل</h2>
+                    <hr>
+                    <div class="details_box">
+                        <i class="fal fa-map-marker-smile"></i>
+                        <p>تهران - خیابان بصارتی - کوچه فلانی - پلاک 12 - واحد 22</p>
+                    </div>
+                    <div class="details_box">
+                        <i class="fal fa-phone-volume"></i>
+                        <p>09023727588</p>
+                    </div>
+                    <div class="details_box">
+                        <i class="fal fa-envelope-open-text"></i>
+                        <p>nadi.codes@gmail.com</p>
+                    </div>
+                    <div class="details_box">
+                        <i class="fal fa-lock"></i>
+                        <p>***********</p>
+                    </div>
+                    <div class="details_box">
+                        <i class="fal fa-clock"></i>
+                        <p>10/12/1399</p>
+                    </div>
+                    <div class="details_box">
+                        <i class="fal fa-user"></i>
+                        <p>-</p>
+                    </div>
+
+                    <div class="details_box">
+                        <i class="fal fa-address-card"></i>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای</p>
+
+                    </div>
+
+                    <button class="btn btn_edit">
+                        <i class="fal fa-edit"></i>
+                        ویرایش
+                    </button>
+
+                </section>
+            </main>
         </div>
 
         <?php require_once '../layout/sidebar.php'?>

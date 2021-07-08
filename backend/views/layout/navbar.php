@@ -36,7 +36,7 @@
                 </a>
             </li>
             <hr>
-            <li id="sign_out">
+            <li id="sign_out_modal">
                 <a >
                     <i class="fal fa-sign-out-alt"></i>
                     خروج

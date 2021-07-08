@@ -1,3 +1,7 @@
+<section class="copy_right">
+&copy; تمامی حقوق این پنل مطعلق به گروه طراحی سایت راش تیم می باشد.
+</section>
+
 <section class="fix_icon">
     <a class="contact_us fic" href="#">
         ارتباط با ما
